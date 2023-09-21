@@ -9,8 +9,13 @@ var special = ["#","@","!","$","%","^","&","*","?","+","<",">"]
 var number = [0,1,2,3,4,5,6,7,8,9]
 
 function generatePassword () {
-prompt("How many characters would you like your password to have?")
-
+var userChoice = prompt("How many characters would you like your password to have?")
+if (userChoice <8) {
+  prompt("Your password must be at least 8 characters long.")
+}
+else if (userChoice >=129) {
+  prompt("Your password must be less than 129 characters long.")
+}
 confirm("Click OK to confirm the use of uppercase letters in your password.")
 
 confirm("Click OK to confirm the use of lowercase letters in your password.")
