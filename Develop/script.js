@@ -16,6 +16,7 @@ if (userChoice <8) {
 else if (userChoice >=129) {
   prompt("Your password must be less than 129 characters long.")
 }
+
 confirm("Click OK to confirm the use of uppercase letters in your password.")
 
 confirm("Click OK to confirm the use of lowercase letters in your password.")
@@ -24,7 +25,7 @@ confirm("Click OK to confirm the use of special characters in your password.")
 
 confirm("Click OK to confirm the use of numbers in your password.")
 
-return "string"
+return "hello"
 }
 
 
