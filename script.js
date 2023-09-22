@@ -23,24 +23,45 @@ else if (userChoice >=129) {
 var yesToUpper = confirm("Click OK to confirm the use of uppercase letters in your password.")
 if (yesToUpper) {
   finalPassword = finalPassword.concat(upper)
+  // for (var i = 0; i < userChoice; i++) {
+  //   console.log(yesToUpper[Math.floor(Math.random() * upper.length)])
+  //   }
 }
 
 var yesToLower = confirm("Click OK to confirm the use of lowercase letters in your password.")
 if (yesToLower){
   finalPassword = finalPassword.concat(lower)
+  // for (var i = 0; i < userChoice; i++) {
+  //   console.log(yesToLower[Math.floor(Math.random() * lower.length)])
+  //   }
 }
 
 var yesToSpecial = confirm("Click OK to confirm the use of special characters in your password.")
 if (yesToSpecial) {
   finalPassword = finalPassword.concat(special)
+  // for (var i = 0; i < userChoice; i++) {
+  //   console.log(yesToSpecial[Math.floor(Math.random() * special.length)])
+  //   }
 }
 
 var yesToNumb = confirm("Click OK to confirm the use of numbers in your password.")
 if (yesToNumb) {
   finalPassword = finalPassword.concat(yesToNumb)
+  // for (var i = 0; i < userChoice; i++) {
+  //   console.log(yesToNumb[Math.floor(Math.random() * number.length)])
+  //   }
 }
+var uniquePassword = ""
 
-return "hello"
+for (var i = 0; i < userChoice; i++) {
+   console.log(finalPassword[Math.floor(Math.random() * finalPassword.length)])
+   uniquePassword+= finalPassword[Math.floor(Math.random() * finalPassword.length)]
+   }
+
+
+
+return uniquePassword
+
 }
 
 
