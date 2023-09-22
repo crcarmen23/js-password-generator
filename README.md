@@ -12,7 +12,7 @@ N/A
 
 This website can be used to generate random passwords between 8 and 128 characters long that include the use of any combination of lowercase letters, uppercase letters, special characters, and numbers. 
 
-[Link to Password Generator webpage](https://crcarmen23.github.io/carmen-mockup-portfolio/)
+[Link to Password Generator webpage](https://crcarmen23.github.io/js-password-generator/)
 
 ![screenshot](assets/screenshot.png)
 
