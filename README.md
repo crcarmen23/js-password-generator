@@ -14,7 +14,7 @@ This website can be used to generate random passwords between 8 and 128 characte
 
 [Link to Password Generator webpage](https://crcarmen23.github.io/js-password-generator/)
 
-![screenshot](assets/screenshot.png)
+![screenshot](/Assets/screenshot.png)
 
 
 ## Credits
