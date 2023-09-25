@@ -12,7 +12,7 @@ var finalPassword = []
 
 
 function generatePassword () {
-  //password length questions 
+//password length questions 
 var userChoice = prompt("How many characters would you like your password to have?")
 if (userChoice <8) {
   alert("Your password must be at least 8 characters long.")
@@ -32,7 +32,6 @@ if (yesToUpper) {
 var yesToLower = confirm("Click OK to confirm the use of lowercase letters in your password.")
 if (yesToLower){
   finalPassword = finalPassword.concat(lower)
-
 }
 
 //including special characters in password
